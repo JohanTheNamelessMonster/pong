@@ -236,7 +236,7 @@ int main()
 		std::cout << "Game Over!!" << std::endl;
 		if (players[0] > players[1])
 		{
-			std::cout << "Player 1 beat Player 2 like Earl beat his wife Jenna in Waitress(2007)" << std::endl;
+			std::cout << "Player 1 beat Player 2" << std::endl;
 		}
 		else if (players[0] == players[1])
 		{
@@ -244,7 +244,7 @@ int main()
 		}
 		else
 		{
-			std::cout << "Player 2 beat Player 1 like Earl beat his wife Jenna in Waitress(2007)" << std::endl;
+			std::cout << "Player 2 beat Player 1" << std::endl;
 		}
 
 	}
